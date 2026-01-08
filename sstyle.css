@@ -48,7 +48,7 @@ nav ul li a {
   height: auto;
   background-position: center;
   background-size: cover;
-  padding:90px 30px;
+  padding: 90px 30px;
   background-repeat: no-repeat;
   text-align: center;
   line-height: 40px;
@@ -58,6 +58,24 @@ nav ul li a {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
+.banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.banner-btn-left span{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner-btn-right span{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+
+}
 .banner div .green {
   margin: 20px 0;
   font-size: 50px;
@@ -66,18 +84,75 @@ nav ul li a {
 .banner div p {
   color: white;
 }
-.early-access-btn{
-    margin-bottom: 20px;
-    background-color: white;
-    color: #469065;
-    border-radius: 20px;
+.early-access-btn {
+  margin-bottom: 20px;
+  background-color: white;
+  color: #469065;
+  border-radius: 20px;
 }
 
 #button-right {
-    margin-left: 10px;
-    background-color: transparent;
-    border: 1px solid white;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 /* main section style */
-  
+/* .notes-section {
+    border: 1px solid gray;
+
+} */
+
+.notes-section .title {
+  text-align: center;
+}
+.note-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+.notes-section .title h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+.notes-section .title p {
+  color: #469065;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.note-container div {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+.image-container {
+  background-color: #f85454;
+  padding: 10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border-radius: 100%;
+  width: max-content;
+  margin: auto;
+}
+.image-container img {
+  /* margin: auto; */
+  height: 20px;
+}
+.note-container div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+}
+.note-container div p {
+  color: #469065;
+}
+
+
+/* brain-section */
+.brain-section{
+    display: flex;
+    align-items: center;
+}
