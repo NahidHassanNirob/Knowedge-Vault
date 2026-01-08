@@ -3,8 +3,9 @@
   margin: 0;
 }
 .container {
-  max-width: 100vw;
-  margin: 20px 100px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
 }
 .button {
   background-color: #469065;
@@ -15,6 +16,10 @@
   font-weight: bold;
   cursor: pointer;
 }
+.button:hover {
+  background-color: #286444;
+  transition: 0.3s;
+}
 .green {
   color: #469065;
 }
@@ -24,11 +29,13 @@ nav {
   align-items: center;
 }
 nav ul {
+text-align: center;
   display: flex;
-  gap: 20px;
+  
 }
 nav ul li {
   text-decoration: none;
+  margin-left: 20px;
 
   list-style: none;
 }
@@ -123,7 +130,7 @@ nav ul li a {
 }
 .note-container div {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  width: 400px;
+  
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 10px;
@@ -184,7 +191,7 @@ nav ul li a {
     color: #627382;
     font-size: 15px;
 }
-.brain-list span{
+.brain-list li{
     display: flex;
     align-items: center;
     gap: 5px;
